@@ -15,7 +15,7 @@ D:/UnityProjects/Kitchen-Chaos-Unity/KitchenChaos
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56106
+58280
 Successfully changed project path to: D:/UnityProjects/Kitchen-Chaos-Unity/KitchenChaos
 D:/UnityProjects/Kitchen-Chaos-Unity/KitchenChaos
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/UnityProjects/Kitchen-Chaos-Unity/KitchenChaos
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11192] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3461707466 [EditorId] 3461707466 [Version] 1048832 [Id] WindowsEditor(7,STEF-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4232] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 2120115439 [EditorId] 2120115439 [Version] 1048832 [Id] WindowsEditor(7,STEF-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11192] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3461707466 [EditorId] 3461707466 [Version] 1048832 [Id] WindowsEditor(7,STEF-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4232] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 2120115439 [EditorId] 2120115439 [Version] 1048832 [Id] WindowsEditor(7,STEF-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 58.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path D:/UnityHub/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'D:/UnityHub/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityHub/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityHub/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityHub/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019764 seconds.
-- Loaded All Assemblies, in  1.459 seconds
+Registered in 0.014081 seconds.
+- Loaded All Assemblies, in  2.153 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.222 seconds
-Domain Reload Profiling: 2680ms
-	BeginReloadAssembly (414ms)
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 2692ms
+	BeginReloadAssembly (683ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (154ms)
-	RebuildNativeTypeToScriptingClass (48ms)
-	initialDomainReloadingComplete (205ms)
-	LoadAllAssembliesAndSetupDomain (636ms)
-		LoadAssemblies (413ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (211ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (456ms)
+	LoadAllAssembliesAndSetupDomain (767ms)
+		LoadAssemblies (680ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (628ms)
-			TypeCache.Refresh (625ms)
-				TypeCache.ScanAssembly (564ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1223ms)
+		AnalyzeDomain (759ms)
+			TypeCache.Refresh (757ms)
+				TypeCache.ScanAssembly (723ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (541ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (837ms)
+		SetupLoadedEditorAssemblies (400ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (33ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (607ms)
-			ProcessInitializeOnLoadMethodAttributes (157ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,52 +116,180 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.457 seconds
-Refreshing native plugins compatible for Editor in 4.78 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.923 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.426 seconds
-Domain Reload Profiling: 2883ms
-	BeginReloadAssembly (251ms)
+- Finished resetting the current domain, in  2.729 seconds
+Domain Reload Profiling: 4651ms
+	BeginReloadAssembly (569ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (1036ms)
-		LoadAssemblies (446ms)
+		CreateAndSetChildDomain (292ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1145ms)
+		LoadAssemblies (579ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (723ms)
-			TypeCache.Refresh (669ms)
-				TypeCache.ScanAssembly (643ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
+		AnalyzeDomain (727ms)
+			TypeCache.Refresh (667ms)
+				TypeCache.ScanAssembly (638ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
 			ResolveRequiredComponents (19ms)
-	FinalizeReload (1427ms)
+	FinalizeReload (2730ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1118ms)
+		SetupLoadedEditorAssemblies (2112ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (286ms)
+			ProcessInitializeOnLoadAttributes (1688ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.73 seconds
+Refreshing native plugins compatible for Editor in 8.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (0.8 MB). Loaded Objects now: 5503.
+Memory consumption went from 199.7 MB to 198.9 MB.
+Total: 21.856500 ms (FindLiveObjects: 0.658500 ms CreateObjectMapping: 1.635200 ms MarkObjects: 18.700800 ms  DeleteObjects: 0.859800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7405bc4ac18f17d4c5975508e934e16c -> d5cc211899269036fb7c746f48d3c72b
+  custom:scripting/monoscript/fileName/GameInput.cs:  -> 48bf40412b0c26d3257fcbf50df83b3c
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.596 seconds
+Refreshing native plugins compatible for Editor in 5.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.506 seconds
+Domain Reload Profiling: 5101ms
+	BeginReloadAssembly (517ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (165ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1861ms)
+		LoadAssemblies (1142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (992ms)
+			TypeCache.Refresh (969ms)
+				TypeCache.ScanAssembly (944ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1033ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (780ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 9.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4910 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.8 MB). Loaded Objects now: 5519.
+Memory consumption went from 175.2 MB to 174.4 MB.
+Total: 46.566300 ms (FindLiveObjects: 8.800200 ms CreateObjectMapping: 1.380500 ms MarkObjects: 35.136100 ms  DeleteObjects: 1.246500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.562 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.363 seconds
+Domain Reload Profiling: 3925ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (1109ms)
+		LoadAssemblies (511ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (737ms)
+			TypeCache.Refresh (705ms)
+				TypeCache.ScanAssembly (679ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2364ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (885ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
+			ProcessInitializeOnLoadAttributes (912ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 7.99 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 7.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4886 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 74 unused Assets / (0.8 MB). Loaded Objects now: 5337.
-Memory consumption went from 195.7 MB to 195.0 MB.
-Total: 11.426600 ms (FindLiveObjects: 0.567100 ms CreateObjectMapping: 0.753100 ms MarkObjects: 8.471200 ms  DeleteObjects: 1.632900 ms)
+Unloading 4910 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.8 MB). Loaded Objects now: 5535.
+Memory consumption went from 175.2 MB to 174.4 MB.
+Total: 7.667600 ms (FindLiveObjects: 0.532600 ms CreateObjectMapping: 0.828400 ms MarkObjects: 5.694000 ms  DeleteObjects: 0.610600 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,17 +304,830 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 274273.753600 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a3a9fdcb83627d21aeb08f63ebde39') in 0.004644 seconds
+  Time since last request: 280543.858969 seconds.
+  path: Assets/Scripts/GameInput.cs
+  artifactKey: Guid(eb218595e11f3f74f97bc4ddc1aba961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInput.cs using Guid(eb218595e11f3f74f97bc4ddc1aba961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e91a7b4ff9740ebb0c23ce0fe9ecb81') in 0.003627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.436 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.792 seconds
+Domain Reload Profiling: 4227ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1021ms)
+		LoadAssemblies (465ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (692ms)
+			TypeCache.Refresh (668ms)
+				TypeCache.ScanAssembly (648ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2792ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (1010ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4910 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.8 MB). Loaded Objects now: 5551.
+Memory consumption went from 175.3 MB to 174.5 MB.
+Total: 202.606400 ms (FindLiveObjects: 0.795800 ms CreateObjectMapping: 1.966200 ms MarkObjects: 198.848800 ms  DeleteObjects: 0.993600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Kitchen-Chaos-Unity\KitchenChaos\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.576 seconds
+Refreshing native plugins compatible for Editor in 11.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.488 seconds
+Domain Reload Profiling: 5071ms
+	BeginReloadAssembly (350ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1051ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (773ms)
+			TypeCache.Refresh (647ms)
+				TypeCache.ScanAssembly (624ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (77ms)
+	FinalizeReload (3496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (1035ms)
+			ProcessInitializeOnLoadMethodAttributes (373ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (103ms)
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5288 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.8 MB). Loaded Objects now: 5946.
+Memory consumption went from 185.6 MB to 184.8 MB.
+Total: 9.630100 ms (FindLiveObjects: 1.344400 ms CreateObjectMapping: 1.756500 ms MarkObjects: 5.678800 ms  DeleteObjects: 0.847600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 177.740207 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/GameScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '938e01f25058146fa74d86fdc25154e9') in 0.365717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(3a3dd2dd313243d4ab057a9bfc0dd4f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Player.cs using Guid(3a3dd2dd313243d4ab057a9bfc0dd4f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1b5ee811aadfd25cdb2034f4f590c94') in 0.050413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_Assets/Materials/StoveRedGlow.mat
+  artifactKey: Guid(874e968446c933942a2e13d2e840aa73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Materials/StoveRedGlow.mat using Guid(874e968446c933942a2e13d2e840aa73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93a6657697e7eb42b079c4ca8d17468e') in 0.098600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Assets/Meshes/Textures/Chopping board_Normal.png
+  artifactKey: Guid(9700db998cae22d468dd4d078a246e2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Chopping board_Normal.png using Guid(9700db998cae22d468dd4d078a246e2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57149fe4e30cb5486e20e8fab939de3a') in 0.142351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Textures/CircleDashed.png
+  artifactKey: Guid(256b17f65ca4560449866be321c6b6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/CircleDashed.png using Guid(256b17f65ca4560449866be321c6b6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef6910cbbcfe1ac562fef0d279002d0') in 0.039033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Assets/Materials/Trail.mat
+  artifactKey: Guid(776cc3ef592a836479bea3edeefd0106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Materials/Trail.mat using Guid(776cc3ef592a836479bea3edeefd0106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7008c466355762af3767053bb44f5ff') in 0.055951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/_Assets/Meshes/Chopping Board.fbx
+  artifactKey: Guid(6706f61472a099542b1b418471acf442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Chopping Board.fbx using Guid(6706f61472a099542b1b418471acf442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '981168782c9899d8fca2ea01b8771730') in 0.144189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Assets/Meshes/Textures/Meat_Normal.png
+  artifactKey: Guid(b8cc4dd19d8249647b0e42fce4fe9674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Meat_Normal.png using Guid(b8cc4dd19d8249647b0e42fce4fe9674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67849810d999ad78088afedc7c92efb3') in 0.041447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Assets/Meshes/Double doors.fbx
+  artifactKey: Guid(af014c1f44781f6438ddefb983ee8899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Double doors.fbx using Guid(af014c1f44781f6438ddefb983ee8899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28931ddf9ac6408dead783fc78e47c70') in 0.094336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Assets/Meshes/Textures/Trash bin_MetallicSmoothness.png
+  artifactKey: Guid(ce06bbde7c4eab34bb593f0b83cc99ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Trash bin_MetallicSmoothness.png using Guid(ce06bbde7c4eab34bb593f0b83cc99ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b086cea90bdc208ecb86b634af379e5e') in 0.056028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Meshes/Textures/Knife_MetallicSmoothness.png
+  artifactKey: Guid(9445b38d789e798418c73651d7f0f111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Knife_MetallicSmoothness.png using Guid(9445b38d789e798418c73651d7f0f111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cccb26becf2d4321e8db5aa69fc812b4') in 0.058671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Assets/Meshes/Cabbage slice_shaped.fbx
+  artifactKey: Guid(7eb63741781409844a3767795957ed58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Cabbage slice_shaped.fbx using Guid(7eb63741781409844a3767795957ed58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab86218577d48b011e522b6e6ac534a4') in 0.106520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_Assets/Meshes/Textures/Kitchen Counter_AlbedoTransparency.png
+  artifactKey: Guid(81c9c80f5d7d6e1408e7563a340b135f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Kitchen Counter_AlbedoTransparency.png using Guid(81c9c80f5d7d6e1408e7563a340b135f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b0fe81f7694257ef99eed33b661719b') in 0.047908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/_Assets/Meshes/Counter_hole.fbx
+  artifactKey: Guid(eb2eec5d81be49b4b95cf99cf6e91f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Counter_hole.fbx using Guid(eb2eec5d81be49b4b95cf99cf6e91f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '154b573e2fba06422f4824fe3060e655') in 0.069433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/Cabbage_Visual.prefab
+  artifactKey: Guid(259702638197d9246bfc6f2b0fe88c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/Cabbage_Visual.prefab using Guid(259702638197d9246bfc6f2b0fe88c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c6f2405932b3ba3e3ecf43718fcdf5') in 0.051961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/MeatPattyBurned_Visual.prefab
+  artifactKey: Guid(0df961a7e3870b44f9bbce7bdf930613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/MeatPattyBurned_Visual.prefab using Guid(0df961a7e3870b44f9bbce7bdf930613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8d43e60f284ed9400505d39f2fe9c4a') in 0.019001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_Assets/Meshes/Textures/Bread_AlbedoTransparency.png
+  artifactKey: Guid(4a2ed721b7506a743bde7e52fafb3aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Bread_AlbedoTransparency.png using Guid(4a2ed721b7506a743bde7e52fafb3aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a56719e711fd082047a03b8540e18582') in 0.065894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/Meshes/Textures/Cheese_AlbedoTransparency.png
+  artifactKey: Guid(a25dd164e583fe249a15953d6a28433b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Cheese_AlbedoTransparency.png using Guid(a25dd164e583fe249a15953d6a28433b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f01db9860ad81f01233adeb7e1f3fd76') in 0.037698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Assets/Meshes/Textures/Bread_Normal.png
+  artifactKey: Guid(697ab8b7404c9dd42b2b7bbc0f8f592e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Bread_Normal.png using Guid(697ab8b7404c9dd42b2b7bbc0f8f592e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6727f9cecee42ae1e99c2d45bf01370f') in 0.042130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Assets/Meshes/Plate.fbx
+  artifactKey: Guid(c044efb604a1c2d4ab08cedf8f93efbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Plate.fbx using Guid(c044efb604a1c2d4ab08cedf8f93efbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2ab4745a672e76233f6becf85c0d8c0') in 0.071494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Assets/Meshes/Uncooked meat patty.fbx
+  artifactKey: Guid(02a24f0f7eb1b624ab903663ee9a248c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Uncooked meat patty.fbx using Guid(02a24f0f7eb1b624ab903663ee9a248c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67625affc02214cc32df639536381f4f') in 0.063558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_footstep01_01.wav
+  artifactKey: Guid(078e15982fce2e147bf06c8a7682f28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_footstep01_01.wav using Guid(078e15982fce2e147bf06c8a7682f28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '646a0058e1451aa24c8b7ebb78a2a59a') in 0.128420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_delivery_success02.wav
+  artifactKey: Guid(4b22bfbdbacfa0445bc9bbfbb0141085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_delivery_success02.wav using Guid(4b22bfbdbacfa0445bc9bbfbb0141085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7063b38e597e5f590047f70873c937f6') in 0.109262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Assets/KitchenChaos_COMPLETE_PROJECT.txt
+  artifactKey: Guid(843489722cca499459390e8171d988bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/KitchenChaos_COMPLETE_PROJECT.txt using Guid(843489722cca499459390e8171d988bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7fa83c70d7fa9232dc9677e5cd9e34c') in 0.012640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Assets/Meshes/Textures/Tomato_AlbedoTransparency.png
+  artifactKey: Guid(5616eeb605d93c941881dea4513487e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Tomato_AlbedoTransparency.png using Guid(5616eeb605d93c941881dea4513487e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18de54b7686f24eb3919684ec6489158') in 0.058656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Assets/PrefabsVisuals/CountersVisuals/StoveCounter_Visual.prefab
+  artifactKey: Guid(93af8b85a17635f40a5b76ed82a86c18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/CountersVisuals/StoveCounter_Visual.prefab using Guid(93af8b85a17635f40a5b76ed82a86c18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '643bfeb3ae87d308224dbbd60db19c45') in 0.026218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/CabbageSliced_Visual.prefab
+  artifactKey: Guid(44b7e90f95929c04c8394768d8bd1d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/CabbageSliced_Visual.prefab using Guid(44b7e90f95929c04c8394768d8bd1d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f5f0072ba24e1bd8aa754350deb94c1') in 0.014586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/Meshes/Cheese slice.fbx
+  artifactKey: Guid(87763d49f84b8484a937c64afab69a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Cheese slice.fbx using Guid(87763d49f84b8484a937c64afab69a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20f94d2f25c809651efe5353677e365e') in 0.047983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_trash01.wav
+  artifactKey: Guid(4b70ec0f0afb9ac4ea7dfea07aca4eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_trash01.wav using Guid(4b70ec0f0afb9ac4ea7dfea07aca4eb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45a6d615af8a4f59a700a7ab53bcf83c') in 0.125679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_object_pickup03.wav
+  artifactKey: Guid(32d29abc86751884081d2005f9ff2676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_object_pickup03.wav using Guid(32d29abc86751884081d2005f9ff2676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a8513550ccf5e0dd2a95b867062561b') in 0.126963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_warning01.wav
+  artifactKey: Guid(b90d8099bdbf09a40ab1163556d5b5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_warning01.wav using Guid(b90d8099bdbf09a40ab1163556d5b5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37f8946c5f20ae3916c14bdc5f132ed6') in 0.149244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Assets/Textures/Icons/MeatPattyCooked.png
+  artifactKey: Guid(f1f50c7ef90b19741b26f2040806cf56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/Icons/MeatPattyCooked.png using Guid(f1f50c7ef90b19741b26f2040806cf56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0674892d73f382cc7b9aff7925f4d7a') in 0.035935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c110b9f3c6ce85130706b1996439e0d0') in 0.100286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '239af43ef574d3b8b6593457c398da1f') in 0.045000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Assets/Materials/Black.mat
+  artifactKey: Guid(90f0eed1477afe14b9e538e5bfa88cdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Materials/Black.mat using Guid(90f0eed1477afe14b9e538e5bfa88cdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d7cc4a08808ae0ffd2d6e0cf9c9e875') in 0.015951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Assets/Meshes/Textures/Cheese_MetallicSmoothness.png
+  artifactKey: Guid(47f1f81f2deb8f84a8b54892c1a55533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Cheese_MetallicSmoothness.png using Guid(47f1f81f2deb8f84a8b54892c1a55533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87029fcee8813810af3909d62fdc6ef4') in 0.040249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/Plate_Visual.prefab
+  artifactKey: Guid(c0c9afd619b40914a8f625c0535e2284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/Plate_Visual.prefab using Guid(c0c9afd619b40914a8f625c0535e2284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '052f3c0393fca201103e9dc0e346860d') in 0.013305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/GameScene/Global Volume Profile.asset
+  artifactKey: Guid(c1df882849d63ce45943ba1541cee174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/GameScene/Global Volume Profile.asset using Guid(c1df882849d63ce45943ba1541cee174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2254699a77045e7067880dbe9600fc11') in 0.026411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_Assets/Meshes/Textures/Kitchen Counter_MetallicSmoothness.png
+  artifactKey: Guid(5e86c52b28e46f84faa7ceb0e9608196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Kitchen Counter_MetallicSmoothness.png using Guid(5e86c52b28e46f84faa7ceb0e9608196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4608a218f25363d66a3e5f120901da0') in 0.056352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Assets/Animations/ContainerCounterClosed.anim
+  artifactKey: Guid(7e9192aa6090c834589ba44fb1d962a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Animations/ContainerCounterClosed.anim using Guid(7e9192aa6090c834589ba44fb1d962a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ebfe1e9b0d24f3138b39959eea02c56') in 0.017152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/_Assets/Textures/Icons/Plate.png
+  artifactKey: Guid(3928afb5321bb3d489bbd4ac581b29a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/Icons/Plate.png using Guid(3928afb5321bb3d489bbd4ac581b29a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8640891a3736b2b8f6263c37d97b5db1') in 0.034574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Textures/Icons/MeatPattyUncooked.png
+  artifactKey: Guid(aa1bacc24dde76e47b2ec0dd4e82385b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/Icons/MeatPattyUncooked.png using Guid(aa1bacc24dde76e47b2ec0dd4e82385b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '442dc17ea988b63ed3c649e0b94b4d69') in 0.034621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Assets/PrefabsVisuals/CountersVisuals/ContainerCounter_Visual.prefab
+  artifactKey: Guid(9a9137fa2b035d34e881701d2c178192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/CountersVisuals/ContainerCounter_Visual.prefab using Guid(9a9137fa2b035d34e881701d2c178192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '156fe025e61641f608e97fcd93c4776e') in 0.026292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_pan_sizzle_loop.wav
+  artifactKey: Guid(511c1cbfb8b48b64083aec78fe17115f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_pan_sizzle_loop.wav using Guid(511c1cbfb8b48b64083aec78fe17115f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd682723f2fea18e27bb154d46ee19c7b') in 0.145063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Assets/Meshes/Textures/Knife_AlbedoTransparency.png
+  artifactKey: Guid(030c5fdf1aa04eb46b9fb96d2155eb3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Knife_AlbedoTransparency.png using Guid(030c5fdf1aa04eb46b9fb96d2155eb3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4226a18b7479c9ae46335c09c4873d70') in 0.032930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Assets/Meshes/Bread top.fbx
+  artifactKey: Guid(240cb0343f51a264eaa7795cefe2dd94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Bread top.fbx using Guid(240cb0343f51a264eaa7795cefe2dd94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '465d6434f5b94a3e34f64ca19ed91f10') in 0.097792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Assets/Meshes/Textures/Cheese_Normal.png
+  artifactKey: Guid(9922224e75dd4e34ab4e113f2cf7cdb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Cheese_Normal.png using Guid(9922224e75dd4e34ab4e113f2cf7cdb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48af1567b5136b5d008deefb0a05ad8e') in 0.036334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_object_drop01.wav
+  artifactKey: Guid(9c88983fa5906dc41944ec5a43b6b5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_object_drop01.wav using Guid(9c88983fa5906dc41944ec5a43b6b5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b8c10263276697e365fe951c62b2d0d') in 0.118358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Assets/Textures/Icons/MeatPattyBurned.png
+  artifactKey: Guid(713ea9afa60dd6e4ebf6503a33e8cc99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/Icons/MeatPattyBurned.png using Guid(713ea9afa60dd6e4ebf6503a33e8cc99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ae86b0cdb22618dd2d644b6b213f7e2') in 0.063047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Assets/PrefabsVisuals/PlayerMovingParticles.prefab
+  artifactKey: Guid(12d9bf5aa92c13841abb9eec36b81afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/PlayerMovingParticles.prefab using Guid(12d9bf5aa92c13841abb9eec36b81afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fec73a45b27c3b8b7dbe282a30e1b00c') in 0.176809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/_Assets/Animations/CuttingCounterCut.anim
+  artifactKey: Guid(d7dc3ae032292ec4790e41ed41f65f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Animations/CuttingCounterCut.anim using Guid(d7dc3ae032292ec4790e41ed41f65f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7609f74a31ec618430bca17c5aab84f0') in 0.015890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Assets/Textures/Tutorial.png
+  artifactKey: Guid(641c97aa3fe3c2f4b942b1b919b8cafe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/Tutorial.png using Guid(641c97aa3fe3c2f4b942b1b919b8cafe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db2d8d503441ff2847300252ee2c0140') in 0.048236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/CheeseSlices_Visual.prefab
+  artifactKey: Guid(17cb28a1a37fd7f44ae6e1ad2aa9da78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/CheeseSlices_Visual.prefab using Guid(17cb28a1a37fd7f44ae6e1ad2aa9da78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e50c77d333738ef953b610bf445bc9a') in 0.014502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Assets/Textures/Cross.png
+  artifactKey: Guid(0d6e1281049dccc4189bf308b2ccf331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/Cross.png using Guid(0d6e1281049dccc4189bf308b2ccf331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '304481865cd19fecdbea85fecb65c254') in 0.034142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/_Assets/Meshes/Textures/Meat_MetallicSmoothness.png
+  artifactKey: Guid(cedc458404734c04b87356e63f64b9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Meat_MetallicSmoothness.png using Guid(cedc458404734c04b87356e63f64b9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13feafa1506c450b75c5f1421bfe4a1c') in 0.064533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Assets/Meshes/All models.fbx
+  artifactKey: Guid(36694ad9cc3abc04ab48fdb0373f2037) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/All models.fbx using Guid(36694ad9cc3abc04ab48fdb0373f2037) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a15fc68fa80dc4efb5200a7df0cc02e5') in 0.007424 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 649.892649 seconds.
-  path: Assets/Settings/URP-HighFidelity-Renderer.asset
-  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8135ec258674c9760c9f31a3d60dd0') in 0.004085 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 0
+  Time since last request: 0.000100 seconds.
+  path: Assets/_Assets/Textures/Icons/Cabbage.png
+  artifactKey: Guid(e1c23b5aded59d84da30738d3267a6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/Icons/Cabbage.png using Guid(e1c23b5aded59d84da30738d3267a6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf273f356a12c1f717ed99153bbd7f9f') in 0.040544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_warning02.wav
+  artifactKey: Guid(b59c98e0066c41f42b8100f5cb180f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_warning02.wav using Guid(b59c98e0066c41f42b8100f5cb180f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74ced1b5ab370eac6a5e0ca1c07f5245') in 0.145548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_delivery_fail02.wav
+  artifactKey: Guid(6a936576e1e30a640844535c71d5a149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_delivery_fail02.wav using Guid(6a936576e1e30a640844535c71d5a149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1001eccc3f531521d86f01d3114f82db') in 0.146926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Assets/Textures/GradientVertical.png
+  artifactKey: Guid(f18900e22c39de34184357b4a90ff275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Textures/GradientVertical.png using Guid(f18900e22c39de34184357b4a90ff275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b16c39017d65d2297ff19ba6f882e950') in 0.035627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Assets/Meshes/Textures/Lettuce_Normal.png
+  artifactKey: Guid(d91480ef56841f842b2db30c8881ef89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Lettuce_Normal.png using Guid(d91480ef56841f842b2db30c8881ef89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e75198715e10aa4a07bf836ecc851287') in 0.067741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/_Assets/Meshes/Textures/Stove_MetallicSmoothness.png
+  artifactKey: Guid(5e0602b8ff2f0e142b2df6b64bb7e24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Stove_MetallicSmoothness.png using Guid(5e0602b8ff2f0e142b2df6b64bb7e24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05c4bf6fdbf8f3b91c7c313bb422dc5f') in 0.035703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Assets/Materials/StoveSizzlingParticles.mat
+  artifactKey: Guid(c78259c28adc42140b5e2e8419c882be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Materials/StoveSizzlingParticles.mat using Guid(c78259c28adc42140b5e2e8419c882be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '844d9ad8a05db7ba77b0e0800abcf06f') in 0.019653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Assets/Meshes/Textures/Tomato_Normal.png
+  artifactKey: Guid(5b3a386d8b1ad7a4ba6140bdf9587085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Tomato_Normal.png using Guid(5b3a386d8b1ad7a4ba6140bdf9587085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2a3f90abba30fc014bdf4a1aaf04844') in 0.045467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Assets/PrefabsVisuals/CountersVisuals/PlatesCounter_Visual.prefab
+  artifactKey: Guid(e21b499d164095947b7559f0267f0e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/CountersVisuals/PlatesCounter_Visual.prefab using Guid(e21b499d164095947b7559f0267f0e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4bba5401a374b6cea1b06c2845b6284') in 0.013500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Assets/Meshes/Textures/Lettuce_MetallicSmoothness.png
+  artifactKey: Guid(70960c9850b4e1f49a624468a3148b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Lettuce_MetallicSmoothness.png using Guid(70960c9850b4e1f49a624468a3148b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44e24c752078f38565b323f3a6a6da29') in 0.054233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_delivery_fail01.wav
+  artifactKey: Guid(400611abd7434234993616a86c030d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_delivery_fail01.wav using Guid(400611abd7434234993616a86c030d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4160a9551d276f9e22a59381e2a4f21f') in 0.115155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/CheeseBlock_Visual.prefab
+  artifactKey: Guid(44325c67017631342b5f02792113e57b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/KitchenObjectsVisuals/CheeseBlock_Visual.prefab using Guid(44325c67017631342b5f02792113e57b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34ae31b33b8800a6a9c3eb9f07e146bf') in 0.012186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_chop02.wav
+  artifactKey: Guid(9c6157275e190604d8136e7e497e941e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_chop02.wav using Guid(9c6157275e190604d8136e7e497e941e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba18fe0bfed093ba220fe5aea78b6cbd') in 0.131340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/PlayerAnimator.cs
+  artifactKey: Guid(018c17f7ad1378e43a70e04e468837e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerAnimator.cs using Guid(018c17f7ad1378e43a70e04e468837e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c9ef1dae973a1a92cfe106ac1027f36') in 0.012597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Assets/Meshes/Textures/Tomato_MetallicSmoothness.png
+  artifactKey: Guid(d7d4fe9f378d5c843a6b259589031ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Textures/Tomato_MetallicSmoothness.png using Guid(d7d4fe9f378d5c843a6b259589031ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '570d635dc4542a81108ef36b35163ca0') in 0.042668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Assets/Meshes/Cabbage.mat
+  artifactKey: Guid(f46454cbed06c8e4f8a0203bb4cd40ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Cabbage.mat using Guid(f46454cbed06c8e4f8a0203bb4cd40ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a9447ef27e99255149bfdb16f25ee59') in 0.023908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Assets/PrefabsVisuals/CountersVisuals/TrashCounter_Visual.prefab
+  artifactKey: Guid(c4e141bc61e807b4b832b850d92f5fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/PrefabsVisuals/CountersVisuals/TrashCounter_Visual.prefab using Guid(c4e141bc61e807b4b832b850d92f5fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f5f70ac9cea93c10170cbf7c60b7df8') in 0.017974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_chop03.wav
+  artifactKey: Guid(99c666127ba3b974c99980d14efcf03c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_chop03.wav using Guid(99c666127ba3b974c99980d14efcf03c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bcfd176d3905c2d0955af3bd33346d2') in 0.133586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Assets/Meshes/Knife.fbx
+  artifactKey: Guid(c6ab874a4b6ade44ebeaa67b5ecf08a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Knife.fbx using Guid(c6ab874a4b6ade44ebeaa67b5ecf08a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ef35af9653628ce0fe2eb56b6fd444d') in 0.077116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_Assets/Meshes/Bread bottom.fbx
+  artifactKey: Guid(4dde307d9c0642143babe4ca75d234e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Meshes/Bread bottom.fbx using Guid(4dde307d9c0642143babe4ca75d234e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '427d32581cbc62ebd43944d540be8d04') in 0.068938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/_Assets/Sounds/SFX/SFX_chop01.wav
+  artifactKey: Guid(e519f586b4ac0904e877dfab85ed729e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Assets/Sounds/SFX/SFX_chop01.wav using Guid(e519f586b4ac0904e877dfab85ed729e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0018805cec2d08f1193c2f28aed923a1') in 0.157338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
