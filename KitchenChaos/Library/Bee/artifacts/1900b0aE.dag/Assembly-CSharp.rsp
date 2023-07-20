@@ -367,6 +367,7 @@
 -analyzer:"D:/UnityHub/2022.3.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/UnityHub/2022.3.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/PlayerInputActions.cs"
+"Assets/Scripts/ClearCounter.cs"
 "Assets/Scripts/GameInput.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerAnimator.cs"
