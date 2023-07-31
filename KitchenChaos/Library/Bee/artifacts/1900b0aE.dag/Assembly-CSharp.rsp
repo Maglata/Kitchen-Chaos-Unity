@@ -408,6 +408,7 @@
 "Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/UI/DeliveryManagerSingleUI.cs"
 "Assets/Scripts/UI/DeliveryManagerUI.cs"
+"Assets/Scripts/UI/DeliveryResultUI.cs"
 "Assets/Scripts/UI/GameOverUI.cs"
 "Assets/Scripts/UI/GamePauseUI.cs"
 "Assets/Scripts/UI/GamePlayingClockUI.cs"
@@ -417,6 +418,9 @@
 "Assets/Scripts/UI/PlateIconsSingleUI.cs"
 "Assets/Scripts/UI/PlateIconsUI.cs"
 "Assets/Scripts/UI/ProgressBarUI.cs"
+"Assets/Scripts/UI/StoveBurnFlashingBarUI.cs"
+"Assets/Scripts/UI/StoveBurnWarningUI.cs"
+"Assets/Scripts/UI/TutorialUI.cs"
 -langversion:9.0
 
 /deterministic
